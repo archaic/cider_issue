@@ -12,7 +12,7 @@
         field-selector
         "//input[contains(@id,'btnFields')]"]
 
-    (.getByXPath page "//input[contains(@id,'btnFields')]")))
+    (.getByXPath page field-selector)))
 
 
 #_(issue) ; might take 10-20s to load page
